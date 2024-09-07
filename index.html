@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="src/worldwide.png" type="image/x-icon">
+
+    <title>Países do mundo</title>
+
+</head>
+
+<body>
+    <div class="image-container">   
+    </div>
+    <div class="container" id="container" style="z-index: 2;">
+        <main>
+            <header>
+                <h1 class="gradient brilliant-border">Países do mundo</h1>
+                <p>Você já se perguntou como é a vida em outro país? Quais são os costumes, a história e as
+                    tradições de diferentes culturas? Aqui você encontrará respostas para todas as suas perguntas e
+                    muito mais. Satisfaça sua curiosidade e amplie seus conhecimentos sobre o mundo.</p>
+            </header>
+            <section class="pesquisa">
+                <input type="text" placeholder="Que tal procurar por:" id="campo-pesquisa">
+                <button type="submit" class="btn-pesquisa" onclick="pesquisar()">
+                    <img src="src/lupa.png" alt="">
+                    Explorar</button>
+            </section>
+        </main>
+        <section class="planeta">
+            <div class="border" id="border"></div>
+            <div class="earth" id="earth"></div>
+        </section>
+    </div>
+    <div class="container2" id="container2"  style="z-index: 2;">
+        <section class="resultados-pesquisa" id="resultado-pesquisa"></section>
+    </div>
+    <footer style="z-index: 2;">
+        <p>2024 - Países do mundo. Todos os direitos reservados</p>
+        <p>Entre em contado via <a href="https://www.linkedin.com/in/thiago-de-oliveira-freitas-2885a3198/">Linkedin</a> ou mande um email: thioliveirafreitas@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="input.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
