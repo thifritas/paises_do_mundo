@@ -20,7 +20,7 @@
 * JavaScript
 
 ### Visualizar projeto
-[Visualize o projeto clicando aqui](https://thifritas.github.io/choose_country/)
+[Visualize o projeto clicando aqui](https://thifritas.github.io/paises_do_mundo/)
 
 **Agradecimento**
 
